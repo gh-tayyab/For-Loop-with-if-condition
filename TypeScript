@@ -1,0 +1,7 @@
+let cleanestCities = ["Karachi", "Islamabad", "Lahore", "Peshawar"];
+for (let i=0; i <=4; i++){
+    if("Islamabad" === cleanestCities[i]){
+        console.log("It's one of the cleanest city")
+        break;
+    }
+}
